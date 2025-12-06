@@ -44,7 +44,9 @@ public class controller {
 	@GetMapping("/view")
      public List<employeeentity> getallemployee()
      {
+    	 System.out.println("demo.....");
     	  return serv.showemp();
+    	 
      }
 	
 }
